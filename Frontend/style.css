@@ -1,0 +1,248 @@
+body {
+  background: #faf3ec;
+  font-family: "Roboto";
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #748194;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #748194;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #748194;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #748194;
+}
+.container {
+  display: none;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: calc(50% - 240px);
+  left: 80px;
+  border-radius: 15px 15px 15px 15px;
+}
+.c1 {
+  box-shadow: 0 0 10px grey;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.c11 {
+  background-image: url("https://www.atrebo.com/wp-content/uploads/2021/08/Critical-Infrastructure.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+  border-radius: 15px 15px 200px 200px;
+}
+#left,
+#right {
+  color: white;
+  display: inline-block;
+  width: 146px;
+  height: 500px;
+  background-color: white;
+  cursor: pointer;
+}
+#left {
+  border-radius: 15px 0px 0px 15px;
+}
+#right {
+  border-radius: 15px 15px 15px 0px;
+}
+.left_hover {
+  color: #ee9ba3;
+  box-shadow: 5px 0 18px -10px #333;
+  z-index: 1;
+  position: absolute;
+}
+.right_hover {
+  box-shadow: -5px 0 15px -10px #333;
+  z-index: 1;
+  position: absolute;
+}
+.s1class {
+  color: #748194;
+  position: absolute;
+  bottom: 0;
+  left: 63%;
+  margin-left: -50%;
+}
+.s1class span,
+.s2class span {
+  display: block;
+}
+.su {
+  font-size: 20px;
+}
+.s2class {
+  color: #748194;
+  position: absolute;
+  bottom: 0;
+  right: 63%;
+  margin-right: -50%;
+}
+.mainhead {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+.mainp {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.c2 {
+  background-color: white;
+  width: 900px;
+  height: 500px;
+  border-radius: 15px;
+  position: absolute;
+  left: 370px;
+  display: inline-block;
+}
+.username {
+  font-weight: bold;
+  width: 200px;
+  margin: 0 35px 20px;
+  height: 35px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #f6f7f9;
+  color: #748194;
+  font-size: 14px;
+}
+.btn {
+  font-weight: bold;
+  width: 130px;
+  margin: 0 35px 20px;
+  height: 45px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ee9ba3;
+  color: white;
+  font-size: 14px;
+}
+.title {
+  color: #748194;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+.signup2 {
+  color: #748194;
+  font-size: 20px;
+  text-align: center;
+}
+.signin {
+  display: initial;
+}
+
+.emoji-smile {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background: #ffd200;
+  border-radius: 50%;
+}
+.emoji-sad {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background: #ffd200;
+  border-radius: 50%;
+  margin-left: 1%;
+}
+
+.face {
+  width: inherit;
+  height: inherit;
+}
+
+.eyebrow-left {
+  position: absolute;
+  height: 20px;
+  width: 24px;
+  left: 27px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  border-top-color: black;
+  top: 25px;
+}
+
+.eyebrow-right {
+  position: absolute;
+  height: 20px;
+  width: 24px;
+  right: 27px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  border-top-color: black;
+  top: 25px;
+}
+
+.eye-left {
+  position: absolute;
+  width: 11px;
+  height: 12px;
+  background: black;
+  left: 33px;
+  top: 40px;
+  border-radius: 50%;
+}
+
+.eye-right {
+  position: absolute;
+  width: 11px;
+  height: 12px;
+  background: black;
+  right: 33px;
+  top: 40px;
+  border-radius: 50%;
+}
+
+.mouth-happy {
+  position: absolute;
+  width: 78px;
+  height: 80px;
+  border: 6px solid transparent;
+  top: 12px;
+  left: 20px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-bottom-color: black;
+}
+
+.mouth-sad {
+  position: absolute;
+  width: 78px;
+  height: 80px;
+  border: 6px solid transparent;
+  top: 70px;
+  left: 20px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top-color: black;
+}
