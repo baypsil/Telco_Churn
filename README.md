@@ -1,7 +1,7 @@
 # Analisis ChurnRate Pelanggan Telco
 
-Dalam case ini, akan dijelaskan bagaimana saya membangun model yang  bermanfaat untuk menjelaskan tingkat churn berdasarkan dataset Pelanggan Kaggle Telco. Proses khusus meliputi (1) Latar Belakang dan Masalah, (2) Rangkuman Data dan Analisis Eksplorasi, (3) Analisis Data, (4) Rekomendasi Strategi, Keterbatasan, dan Penelitian Masa Depan.
-Untuk melihat kode lengkap yang digunakan, temukan GitHub saya.
+Dalam case ini, akan dijelaskan bagaimana saya membangun model yang  bermanfaat untuk menjelaskan tingkat churn berdasarkan dataset Pelanggan Kaggle Telco. Proses khusus meliputi (1) Latar Belakang dan Masalah, (2) Rangkuman Data dan Analisis Eksplorasi, (3) Analisis Data, (4) Api Deployment
+
 
 ## Bagian 1 — Latar Belakang dan Masalah
 ### 1.1 Latar Belakang
